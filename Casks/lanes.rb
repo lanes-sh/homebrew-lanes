@@ -7,7 +7,7 @@ cask "lanes" do
   desc "Mission control for AI coding agents"
   homepage "https://github.com/lanes-sh/app"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Lanes.app"
 
